@@ -22,7 +22,7 @@ AI is optional. classiflow runs as a full labeling platform without taxomind.
 ## Links
 
 - Website: https://rowsquared.com/classiflow/
-- classiflow repo: https://github.com/rowsquared/classifAI
+- classiflow repo: https://github.com/rowsquared/classiflow
 - taxomind repo: https://github.com/rowsquared/taxomind
 
 ## Why classiflow
@@ -87,7 +87,7 @@ cloned side by side. If they are not, local builds will fail.
    mkdir -p classiflow-workspace
    cd classiflow-workspace
    git clone https://github.com/rowsquared/classiflow-platform.git
-   git clone https://github.com/rowsquared/classifAI.git
+   git clone https://github.com/rowsquared/classiflow.git
    git clone https://github.com/rowsquared/taxomind.git
    ```
 2. Enter the platform repo:
@@ -109,12 +109,12 @@ cloned side by side. If they are not, local builds will fail.
 
 - Path A: Run classiflow only (no AI). Use the default compose command (no
   profile). Leave `AI_LABELING_API_URL` and `AI_LABELING_API_KEY` unset or
-  blank. See the [classiflow README](https://github.com/rowsquared/classifAI#readme).
+  blank. See the [classiflow README](https://github.com/rowsquared/classiflow#readme).
 - Path B: Run classiflow + taxomind (AI suggestions). Set
   `AI_LABELING_API_URL=http://taxomind:8000` and
   `AI_LABELING_API_KEY=change-me`, then run
   `docker compose -f dev/docker-compose.yml --profile ai up -d`. See the
-  [classiflow README](https://github.com/rowsquared/classifAI#readme) and
+  [classiflow README](https://github.com/rowsquared/classiflow#readme) and
   [taxomind README](https://github.com/rowsquared/taxomind#readme).
 - Path C: Work directly with taxomind (advanced / technical). If you are
   integrating taxomind into another system or developing models, work in the

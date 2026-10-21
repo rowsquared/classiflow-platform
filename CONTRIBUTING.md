@@ -7,7 +7,7 @@ Thanks for helping improve classiflow-platform.
 This repo is the front door for the ecosystem: docs, local dev orchestration,
 and integration guidance. For product changes, use the component repos:
 
-- classiflow: https://github.com/rowsquared/classifAI
+- classiflow: https://github.com/rowsquared/classiflow
 - taxomind: https://github.com/rowsquared/taxomind
 
 ## How to contribute

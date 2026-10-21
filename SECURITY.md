@@ -9,7 +9,7 @@ and taxomind, refer to their repositories.
 
 Please report security issues in the repository where the issue exists:
 
-- classiflow: https://github.com/rowsquared/classifAI
+- classiflow: https://github.com/rowsquared/classiflow
 - taxomind: https://github.com/rowsquared/taxomind
 - classiflow-platform: https://github.com/rowsquared/classiflow-platform
 
